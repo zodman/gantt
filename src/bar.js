@@ -102,6 +102,7 @@ export default class Bar {
             rx: this.corner_radius,
             ry: this.corner_radius,
             class: 'bar-progress',
+            style: "fill:" + this.task.color,
             append_to: this.bar_group
         });
 
